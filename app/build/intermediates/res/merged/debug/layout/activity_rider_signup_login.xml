@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.dani.sastisawari.signupLogin"
+    android:background="@drawable/logo">
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="Sign up"
+        android:id="@+id/signup"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/orange"
+        android:textSize="17dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/login1"
+        android:layout_toStartOf="@+id/login1"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp"
+        android:textColor="#fefefe" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="Login"
+        android:id="@+id/login1"
+        android:layout_marginRight="34dp"
+        android:layout_marginEnd="34dp"
+        android:background="@drawable/orange"
+        android:textSize="17dp"
+        android:layout_alignTop="@+id/signup"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#fefefe" />
+</RelativeLayout>

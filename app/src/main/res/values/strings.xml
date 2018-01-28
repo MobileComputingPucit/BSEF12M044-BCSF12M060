@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sasti Sawari</string>
+    <string name="privacy"><u><i>Privacy Policy</i></u></string>
+    <string name="logout"><u><i>log out</i></u></string>
+    <string name="title_activity_rider">Map</string>
+    <string name="btnGPS" />
+    <string name="title_activity_driver_location">Map</string>
+    <string name="title_activity_nav_drawer">navDrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
